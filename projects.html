@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Modern Business - Start Bootstrap Template</title>
+        <title>Projets - Tahina</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -16,20 +16,21 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styleTahina.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Start Bootstrap</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Portfolio</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume.html">CV</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projets</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacter</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,33 +39,166 @@
             <section class="py-5">
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projets réalisés</span></h1>
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 1</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                            <div id="outerCarouselIndicators" class="carousel slide">
+                                <div class="carousel-indicators carousel-indicators-custom ">
+                                    <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <!-- <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <!-- Project Card 1-->
+                                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                            <div class="card-body p-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="p-5">
+                                                        <h2 class="fw-bolder">Copie de mouvement d’une personne dans une vidéo en 3D</h2>
+                                                        <div class="text-primary fw-bolder mb-2">Hiver 2022</div>
+                                                        <p class="d-inline-flex gap-1">
+                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject1" role="button" aria-expanded="false" aria-controls="collapseProject1">
+                                                                Voir plus
+                                                            </a>
+                                                        </p>
+                                                        <div class="collapse" id="collapseProject1">
+                                                            <div class="card card-body border border-0">
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Categorie : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <span>Projet scolaire (Université de Moncton)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Type : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <span>Projet solo</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Progression : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <div class="progress mt-1" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                                                            <div class="progress-bar bg-warning text-dark" style="width: 75%">75%</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <br>
+                                                        <p class="paragraph-text">
+                                                            Dans le cadre de mon projet à l'Université de Moncton, au sein de la Faculté 
+                                                            des sciences au Nouveau-Brunswick, j'ai entrepris la conception et la réalisation 
+                                                            d'un système de copie de mouvement à partir d'une personne dans une vidéo en 3D. 
+                                                            Cette initiative a été rendue possible grâce à l'utilisation de technologies 
+                                                            telles que Python, OpenCV, Mediapipe, et Blender. Le processus implique 
+                                                            l'extraction en temps réel de la pose humaine à partir d'une vidéo, suivie du 
+                                                            traçage d'un squelette sur la personne concernée en se basant sur la pose extraite. 
+                                                            J'ai réussi avec succès à créer un modèle 3D du personnage sur Blender, mais la 
+                                                            phase cruciale d'intégration entre le squelette extrait et le modèle 3D reste à 
+                                                            finaliser. Ce défi représente une étape clé pour parvenir à une animation du 
+                                                            personnage 3D en parfaite synchronisation avec les mouvements détectés. 
+                                                            Ce projet en cours marie des compétences en programmation, vision par ordinateur 
+                                                            et modélisation 3D pour créer une application novatrice en copie de mouvement.
+                                                        </p>
+                                                        <div class="mb-3">
+                                                            <img src="images/salsa_dance.png" class="img-fluid" alt="Responsive image">
+                                                            <div class="small text-muted text-center"><span class="text-decoration-underline">Image 1 :</span> Image captée à travers une vidéo</div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <img src="images/initial_pose.png" class="img-fluid" alt="Responsive image">
+                                                            <div class="small text-muted text-center"><span class="text-decoration-underline">Image 2 :</span> Mesh utilisé sur Blender</div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <img src="images/execution_code.png" class="img-fluid" alt="Responsive image">
+                                                            <div class="small text-muted text-center"><span class="text-decoration-underline">Image 3 :</span> Détection et correspondance du squelette vidéo avec le mesh Blender</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <!-- Project Card 2-->
+                                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                            <div class="card-body p-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="p-5">
+                                                        <h2 class="fw-bolder">Site web d’un pari sportif (projet d’équipe)</h2>
+                                                        <div class="text-primary fw-bolder mb-2">Automne 2019</div>
+                                                        <p class="d-inline-flex gap-1">
+                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                                Voir plus
+                                                            </a>
+                                                        </p>
+                                                        <div class="collapse" id="collapseProject2">
+                                                            <div class="card card-body border border-0">
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Categorie : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <span>Projet scolaire (IT University, Antananarivo, Madagascar)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Type : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <span>Projet d'equipe (Binome)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Progression : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <div class="progress mt-1" role="progressbar" aria-label="Warning example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                                            <div class="progress-bar bg-success" style="width: 100%">100%</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <br>
+                                                        <p class="paragraph-text">
+                                                            Dans le cadre d'un projet d'équipe à l'IT University à Andoharanofotsy, Antananarivo, 
+                                                            Madagascar, nous avons collaboré pour créer un site web dédié aux paris sportifs, 
+                                                            conçu dans le cadre d'un exercice académique. Notre démarche a débuté par l'établissement 
+                                                            d'un plan de travail détaillé et d'une liste de tâches pour organiser efficacement 
+                                                            notre collaboration. Pour assurer une compréhension claire des fonctionnalités, nous 
+                                                            avons élaboré un diagramme UML des cas d'utilisation. La conception des pages a été 
+                                                            réalisée en utilisant HTML et CSS, mettant l'accent sur une interface utilisateur attrayante 
+                                                            et conviviale. Le développement des fonctionnalités a été réalisé en PHP, intégrant de manière 
+                                                            cohérente la base de données MySQL pour assurer la gestion efficace des paris sportifs. Bien que 
+                                                            le projet n'ait pas été déployé en ligne, il représente une expérience pratique enrichissante dans 
+                                                            la planification, la conception et le développement web.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Project Name 2</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
-                                        </div>
-                                        <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
-                                    </div>
-                                </div>
+                                <button class="carousel-control-prev custom-arrow-prev" type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon bg-secondary" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next custom-arrow-next" type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon bg-secondary" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -74,8 +208,8 @@
             <section class="py-5 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
                     <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                        <h2 class="display-4 fw-bolder mb-4">Construisons quelque chose ensemble</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contactez moi</a>
                     </div>
                 </div>
             </section>
@@ -84,7 +218,7 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Your Website 2023</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Tahina A. Raoelison 2023</div></div>
                     <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>

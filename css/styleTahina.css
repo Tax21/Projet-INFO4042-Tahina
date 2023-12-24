@@ -6,44 +6,8 @@
   right: -100px;
 }
 
-@media only screen and (max-width:830px){ /*Only works on screens with <=650px width, this is to make the table fit smaller screens ig*/
-  .custom-arrow-prev {
-    left: -75px;
-  }
-
-  .custom-arrow-next {
-    right: -75px;
-  }
-}
-
-@media only screen and (max-width:630px){ /*Only works on screens with <=650px width, this is to make the table fit smaller screens ig*/
-  .custom-arrow-prev {
-    left: -60px;
-  }
-
-  .custom-arrow-next {
-    right: -60px;
-  }
-}
-
-@media only screen and (max-width:460px){ /*Only works on screens with <=650px width, this is to make the table fit smaller screens ig*/
-  .custom-arrow-prev {
-    left: -50px;
-  }
-
-  .custom-arrow-next {
-    right: -50px;
-  }
-}
-
-@media only screen and (max-width:300px){ /*Only works on screens with <=650px width, this is to make the table fit smaller screens ig*/
-  .custom-arrow-prev {
-    left: -30px;
-  }
-
-  .custom-arrow-next {
-    right: -30px;
-  }
+.font-size-control {
+  font-size: 35px;
 }
 
 .paragraph-text {
@@ -52,5 +16,80 @@
 
 .carousel-indicators-custom [data-bs-target]{
   background-color: #000;
+}
+
+@media only screen and (max-width:991px){ /*Only works on screens with <=991px width*/
+  .nav-link {
+    padding-left: 10px;
+  } 
+  .nav-link-head {
+    margin-top: 20px;
+  }
+}
+  @media only screen and (max-width:830px){ /*Only works on screens with <=830px width*/
+  .custom-arrow-prev {
+    left: -75px;
+  }
+
+  .custom-arrow-next {
+    right: -75px;
+  }
+
+  .font-size-control {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width:630px){ /*Only works on screens with <=630px width*/
+  .custom-arrow-prev {
+    left: -60px;
+  }
+
+  .custom-arrow-next {
+    right: -60px;
+  }
+
+  .font-size-control {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:460px){ /*Only works on screens with <=460px width*/
+  .custom-arrow-prev {
+    left: -50px;
+  }
+
+  .custom-arrow-next {
+    right: -50px;
+  }
+
+  .font-size-control {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width:300px){ /*Only works on screens with <=300px width*/
+  .custom-arrow-prev {
+    left: -30px;
+  }
+
+  .custom-arrow-next {
+    right: -30px;
+  }
+
+  .font-size-control {
+    font-size:14px;
+  }
+}
+
+@media only screen and (max-width:280px){ /*Only works on screens with <=280px width*/
+  .font-size-control {
+    font-size:10px;
+  }
+  
+  .paragraph-text {
+    font-size: 14px;
+    margin-right: 35px ;
+  }
 }
 

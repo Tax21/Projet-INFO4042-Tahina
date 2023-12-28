@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Projets - Tahina</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="../images/logo-tahina.png" />
         <!-- Custom Google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,24 +15,25 @@
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/styleTahina.css" rel="stylesheet" />
+        <link href="../css/styles.css" rel="stylesheet" />
+        <link href="../css/styleTahina.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100 bg-light">
         <main class="flex-shrink-0">
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><img src="images/logo-tahina.png" alt="Logo de Tahina" style="width: 100px;"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <a class="navbar-brand" href="../index.html"><img src="../images/logo-tahina.png" alt="Logo de Tahina" style="width: 100px;"></a>
+                    <button class="navbar-toggler ms-auto me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">CV</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projets</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacter</a></li>
+                            <li class="nav-item"><a class="nav-link nav-link-head" href="../index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="resume_FR.html">CV</a></li>
+                            <li class="nav-item"><a class="nav-link bg-gradient-primary-to-secondary text-white rounded-3" href="#">Projets</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact_FR.html">Contacter</a></li>
                         </ul>
                     </div>
+                    <div><a class="langage" href="../en_pages/projects_EN.html">EN</a></div>
                 </div>
             </nav>
             <!-- Projects Section-->
@@ -47,11 +48,84 @@
                                 <div class="carousel-indicators carousel-indicators-custom ">
                                     <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                     <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     <!-- <button type="button" data-bs-target="#outerCarouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <!-- Project Card 1-->
+                                        <!-- Project Card 3-->
+                                        <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                                            <div class="card-body p-0">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="p-5">
+                                                        <h2 class="fw-bolder">Simulation de Feux Tricolores avec Arduino</h2>
+                                                        <div class="text-primary fw-bolder mb-2">Automne 2023</div>
+                                                        <p class="d-inline-flex gap-1">
+                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject3" role="button" aria-expanded="false" aria-controls="collapseProject3">
+                                                                Voir plus
+                                                            </a>
+                                                        </p>
+                                                        <div class="collapse" id="collapseProject3">
+                                                            <div class="card card-body border border-0">
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Catégorie : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <span>Projet scolaire (Université de Moncton)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Type : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <span>Projet solo</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row mb-sm-2">
+                                                                    <div class="col-md-3">
+                                                                        <span>Progression : </span>
+                                                                    </div>
+                                                                    <div class="col-md-9">
+                                                                        <div class="progress mt-1" role="progressbar" aria-label="success example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                                                            <div class="progress-bar bg-success text-white" style="width: 100%">100%</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <br>
+                                                        <br>
+                                                        <p class="paragraph-text">
+                                                            Le projet que je présente consiste en une simulation réaliste de feux tricolores à une intersection, 
+                                                            contrôlée par une carte Arduino Mega. Avec une approche pédagogique, le système intègre des feux de 
+                                                            signalisation et des capteurs de mouvement, permettant de réguler la circulation de manière immersive. 
+                                                            Le code du projet se divise en deux principaux modes de fonctionnement, jour et nuit, avec des 
+                                                            fonctions dédiées à chaque mode. Le branchement minutieux des composants, tels que des LED RGB, 
+                                                            des capteurs de mouvement PIR, et un photoresistor, assure une interaction harmonieuse pour une 
+                                                            expérience de simulation de feux tricolores à une intersection. La vidéo jointe démontre les 
+                                                            résultats réussis de cette simulation, renforçant ma compréhension pratique des concepts Arduino 
+                                                            et de la régulation du trafic. Ce projet représente une application concrète des connaissances 
+                                                            acquises au cours de mon programme d'études et témoigne de ma passion pour la programmation et la 
+                                                            technologie. <br><br>
+                                                            Lien pour la démonstration vidéo : <a href="https://youtu.be/3SxWbOCdrpU">ICI</a>
+                                                        </p>
+                                                        <div class="mb-3">
+                                                            <img src="../images/trafficLight1.png" class="img-fluid" alt="Responsive image">
+                                                            <div class="small text-muted text-center"><span class="text-decoration-underline">Image 1 :</span>Details du branchement</div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <img src="../images/trafficLight2.png" class="img-fluid" alt="Responsive image">
+                                                            <div class="small text-muted text-center"><span class="text-decoration-underline">Image 2 :</span> Image du branchement globale</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <!-- Project Card 2-->
                                         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                             <div class="card-body p-0">
                                                 <div class="d-flex align-items-center">
@@ -59,15 +133,15 @@
                                                         <h2 class="fw-bolder">Copie de mouvement d’une personne dans une vidéo en 3D</h2>
                                                         <div class="text-primary fw-bolder mb-2">Hiver 2022</div>
                                                         <p class="d-inline-flex gap-1">
-                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject1" role="button" aria-expanded="false" aria-controls="collapseProject1">
+                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject2" role="button" aria-expanded="false" aria-controls="collapseProject2">
                                                                 Voir plus
                                                             </a>
                                                         </p>
-                                                        <div class="collapse" id="collapseProject1">
+                                                        <div class="collapse" id="collapseProject2">
                                                             <div class="card card-body border border-0">
                                                                 <div class="row mb-sm-2">
                                                                     <div class="col-md-3">
-                                                                        <span>Categorie : </span>
+                                                                        <span>Catégorie : </span>
                                                                     </div>
                                                                     <div class="col-md-9">
                                                                         <span>Projet scolaire (Université de Moncton)</span>
@@ -111,15 +185,15 @@
                                                             et modélisation 3D pour créer une application novatrice en copie de mouvement.
                                                         </p>
                                                         <div class="mb-3">
-                                                            <img src="images/salsa_dance.png" class="img-fluid" alt="Responsive image">
+                                                            <img src="../images/salsa_dance.png" class="img-fluid" alt="Responsive image">
                                                             <div class="small text-muted text-center"><span class="text-decoration-underline">Image 1 :</span> Image captée à travers une vidéo</div>
                                                         </div>
                                                         <div class="mb-3">
-                                                            <img src="images/initial_pose.png" class="img-fluid" alt="Responsive image">
+                                                            <img src="../images/initial_pose.png" class="img-fluid" alt="Responsive image">
                                                             <div class="small text-muted text-center"><span class="text-decoration-underline">Image 2 :</span> Mesh utilisé sur Blender</div>
                                                         </div>
                                                         <div class="mb-3">
-                                                            <img src="images/execution_code.png" class="img-fluid" alt="Responsive image">
+                                                            <img src="../images/execution_code.png" class="img-fluid" alt="Responsive image">
                                                             <div class="small text-muted text-center"><span class="text-decoration-underline">Image 3 :</span> Détection et correspondance du squelette vidéo avec le mesh Blender</div>
                                                         </div>
                                                     </div>
@@ -128,23 +202,23 @@
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <!-- Project Card 2-->
+                                        <!-- Project Card 1-->
                                         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                             <div class="card-body p-0">
                                                 <div class="d-flex align-items-center">
                                                     <div class="p-5">
-                                                        <h2 class="fw-bolder">Site web d’un pari sportif (projet d’équipe)</h2>
+                                                        <h2 class="fw-bolder">Site web d’un pari sportif</h2>
                                                         <div class="text-primary fw-bolder mb-2">Automne 2019</div>
                                                         <p class="d-inline-flex gap-1">
-                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                            <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseProject1" role="button" aria-expanded="false" aria-controls="collapseProject1">
                                                                 Voir plus
                                                             </a>
                                                         </p>
-                                                        <div class="collapse" id="collapseProject2">
+                                                        <div class="collapse" id="collapseProject1">
                                                             <div class="card card-body border border-0">
                                                                 <div class="row mb-sm-2">
                                                                     <div class="col-md-3">
-                                                                        <span>Categorie : </span>
+                                                                        <span>Catégorie : </span>
                                                                     </div>
                                                                     <div class="col-md-9">
                                                                         <span>Projet scolaire (IT University, Antananarivo, Madagascar)</span>
@@ -155,7 +229,7 @@
                                                                         <span>Type : </span>
                                                                     </div>
                                                                     <div class="col-md-9">
-                                                                        <span>Projet d'equipe (Binome)</span>
+                                                                        <span>Projet d'équipe (Binome)</span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="row mb-sm-2">
@@ -209,7 +283,7 @@
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="display-4 fw-bolder mb-4">Construisons quelque chose ensemble</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contactez moi</a>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact_FR.html">Contactez moi</a>
                     </div>
                 </div>
             </section>
@@ -218,7 +292,7 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Tahina A. Raoelison 2023</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Tahina A. Raoelison</div></div>
                     <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>
@@ -232,6 +306,6 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="../js/scripts.js"></script>
     </body>
 </html>
